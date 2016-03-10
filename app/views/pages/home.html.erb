@@ -11,7 +11,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img src="<%=asset_path('logo.png')%>" class="img-responsive" alt="">
+                <h2 class="logo">VF</h1>
+                <!-- <img src="<%=asset_path('logo.png')%>" class="img-responsive" alt=""> -->
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -27,10 +28,13 @@
                     <a class="page-scroll" href="#solutions">Solutions</a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="#process">Process</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="#work">Work</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#donate">Donate</a>
+                    <a class="page-scroll" href="#blog">Blog</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
@@ -40,12 +44,12 @@
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
-</nav>
+</nav> 
 <header style="background-image: url(<%=asset_path('bg-header-2.png')%>">
     <div class="intro-content">
         <div class="brand-name">Victory Funding</div>
         <hr class="colored">
-        <div class="brand-name-subtext">support what matters</div>
+        <div class="brand-name-subtext">creating effective, efficient and impactful fundraising campaigns that support our veterans</div>
     </div>
     <div class="scroll-down">
         <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
@@ -82,7 +86,7 @@
             <div class="col-lg-12 wow fadeIn">
                 <h2>Solutions Focused</h2>
                 <hr class="colored">
-                <p>We're no cookie cutter agency. We're with you from the beginning to end to deliver a world class fundraising campaign.</p>
+                <p>We're no cookie cutter agency. We're with you from the beginning to the end to deliver a world class fundraising campaign.</p>
             </div>
         </div>
         <div class="row content-row">
@@ -183,32 +187,58 @@
         </div>
     </div>
 </aside>
+<section id="process">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12 wow fadeIn">
+                <h1>Our Process</h1>
+                <p>No two projects are alike. We don't sell a specific product. We're here to build and execute a solution that's right for you.</p>
+                <hr class="colored">
+            </div>
+        </div>
+        <div class="row content-row">
+            <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                <%= image_tag("http://placehold.it/500x300") %>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay=".4s">
+                <h3 class="process-header">Client Discovery</h3>
+                <p>
+                    Keytar meditation meggings vegan, keffiyeh aesthetic sartorial bushwick selvage YOLO chartreuse synth kombucha bitters. Man bun williamsburg kogi umami narwhal, biodiesel iPhone. 8-bit ugh synth cray irony, fingerstache affogato. Tumblr yr affogato, neutra bushwick pour-over +1 XOXO readymade offal plaid yuccie cray. Synth readymade 90's meh 3 wolf moon, normcore sriracha franzen yuccie wolf. You probably haven't heard of them meggings lumbersexual
+                </p>
+            </div>
+        </div>
+        <div class="row content-row">
+            <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay=".4s">
+                <h3 class="process-header">Strategy Formulation</h3>
+                <p>
+                    Keytar meditation meggings vegan, keffiyeh aesthetic sartorial bushwick selvage YOLO chartreuse synth kombucha bitters. Man bun williamsburg kogi umami narwhal, biodiesel iPhone. 8-bit ugh synth cray irony, fingerstache affogato. Tumblr yr affogato, neutra bushwick pour-over +1 XOXO readymade offal plaid yuccie cray. Synth readymade 90's meh 3 wolf moon, normcore sriracha franzen yuccie wolf. You probably haven't heard of them meggings lumbersexual
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                <%= image_tag("http://placehold.it/500x300") %>
+            </div>
+        </div>
+        <div class="row content-row">
+            <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                <%= image_tag("http://placehold.it/500x300") %>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay=".4s">
+                <h3 class="process-header">Revenue Model</h3>
+                <p>
+                    Keytar meditation meggings vegan, keffiyeh aesthetic sartorial bushwick selvage YOLO chartreuse synth kombucha bitters. Man bun williamsburg kogi umami narwhal, biodiesel iPhone. 8-bit ugh synth cray irony, fingerstache affogato. Tumblr yr affogato, neutra bushwick pour-over +1 XOXO readymade offal plaid yuccie cray. Synth readymade 90's meh 3 wolf moon, normcore sriracha franzen yuccie wolf. You probably haven't heard of them meggings lumbersexual
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 <section id="work" class="bg-gray">
     <div class="container text-center wow fadeIn">
         <h2>Our Work</h2>
         <hr class="colored">
-        <p>Examples of our work which represent our funding capabilities.</p>
+        <p>Examples of our work which represent our fundraising capabilities.</p>
     </div>
 </section>
 <section class="portfolio-carousel wow fadeIn">
-    <div class="item" style="background-image: url(<%=asset_path('portfolio/bg-1.jpg')%>)">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 col-md-push-8">
-                    <div class="project-details">
-                        <img src="<%=asset_path('client-logos/logo-1.png')%>" class="img-responsive client-logo" alt="">
-                        <span class="project-name">Project Name</span>
-                        <span class="project-description">Branding, Website Design</span>
-                        <hr class="colored">
-                        <a href="#portfolioModal1" data-toggle="modal" class="btn btn-outline-light">View Details <i class="fa fa-long-arrow-right fa-fw"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-8 col-md-pull-4 hidden-xs">
-                    <img src="<%=asset_path('portfolio/mobile-screens.png')%>" class="img-responsive portfolio-image" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="item" style="background-image: url(<%=asset_path('portfolio/bg-2.jpg')%>)">
         <div class="container-fluid">
             <div class="row">
@@ -340,7 +370,7 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
+                                <p class="lead">"Working with Victory Funding was both a valuable and rewarding experience."</p>
                                 <hr class="colored">
                                 <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
                                 <div class="testimonial-info">
@@ -392,85 +422,60 @@
         </div>
     </div>
 </section>
-<section id="donate" class="pricing" style="background-image: url(<%=asset_path('bg-pricing.jpg')%>">
-    <div class="container wow fadeIn">
+<section id="blog">
+    <div class="container-fluid">
         <div class="row text-center">
-            <div class="col-lg-12">
-                <h2>Donate</h2>
+            <div class="col-lg-12 wow fadeIn">
+                <h1>Our Blog</h1>
+                <p>our corner of the internet where we share our experiences in the world of fundraising for veterans</p>
                 <hr class="colored">
-                <p>Common donation amounts</p>
             </div>
         </div>
         <div class="row content-row">
-            <div class="col-md-4">
-                <div class="pricing-item featured-first">
-                    <h3>Basic</h3>
-                    <hr class="colored">
-                    <div class="price"><span class="number"><sup>$</sup>25</span></div>
-                    <ul class="list-group">
-                        <li class="list-group-item">Some Perks</li>
-                        <li class="list-group-item">Listed Here</li>
-                        <li class="list-group-item">About What Gets Supported</li>
-                    </ul>
-                    <a href="#" class="btn btn-outline-dark">Give Now</a>
+            <div class="col-md-4 col-sm-4">
+                <div class="col-md-6 col-sm-6">
+                    <%= image_tag("http://placehold.it/150x150") %>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Title of Post</h4>
+                    <%= truncate("<p>Raw denim sartorial try-hard tumblr. Gastropub gluten-free hella put a bird on it sartorial. Art party poutine 8-bit beard chambray biodiesel.</p>", escape:false, length: 120){ link_to "read more", "#"} %>
+                    
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="pricing-item featured">
-                    <h3>Plus</h3>
-                    <hr class="colored">
-                    <div class="price"><span class="number"><sup>$</sup>50</span></div>
-                    <ul class="list-group">
-                        <li class="list-group-item">Some Perks</li>
-                        <li class="list-group-item">Listed Here</li>
-                        <li class="list-group-item">About What Gets Supported</li>
-                    </ul>
-                    <a href="#" class="btn btn-outline-dark">Give Now</a>
+            <div class="col-md-4 col-sm-4">
+                <div class="col-md-6 col-sm-6">
+                    <%= image_tag("http://placehold.it/150x150") %>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Title of Post</h4>
+                    <%= truncate("<p>Raw denim sartorial try-hard tumblr. Gastropub gluten-free hella put a bird on it sartorial. Art party poutine 8-bit beard chambray biodiesel.</p>", escape:false, length: 120){ link_to "read more", "#"} %>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="pricing-item featured-last">
-                    <h3>Premium</h3>
-                    <hr class="colored">
-                    <div class="price"><span class="number"><sup>$</sup>150</span></div>
-                    <ul class="list-group">
-                        <li class="list-group-item">Some Perks</li>
-                        <li class="list-group-item">Listed Here</li>
-                        <li class="list-group-item">About What Gets Supported</li>
-                    </ul>
-                    <a href="#" class="btn btn-outline-dark">Give Now</a>
+            <div class="col-md-4 col-sm-4">
+                <div class="col-md-6 col-sm-6">
+                    <%= image_tag("http://placehold.it/150x150") %>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h4>Title of Post</h4>
+                    <%= truncate("<p>Raw denim sartorial try-hard tumblr. Gastropub gluten-free hella put a bird on it sartorial. Art party poutine 8-bit beard chambray biodiesel.</p>", escape:false, length: 120){ link_to "read more", "#"} %>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="cta-form bg-dark">
-    <div class="container text-center">
-        <h3>Subscribe to our newsletter!</h3>
-        <hr class="colored">
+<aside class="cta-quote no-padding" style="background-image: url(<%=asset_path('american-flag-1.jpeg')%>">
+<!-- <aside class="cta-quote no-padding" style="background-image: url(<%=asset_path('http://blogimg.goo.ne.jp/user_image/12/5d/3ff8e6b5dcf2bab8640eae3e0333876c.jpg')%>"> -->
+    <div class="container wow fadeIn">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <!-- MailChimp Signup Form -->
-                <div id="mc_embed_signup">
-                    <!-- Replace the form action in the line below with your MailChimp embed action! For more informatin on how to do this please visit the Docs! -->
-                    <form role="form" action="//startbootstrap.us3.list-manage.com/subscribe/post?u=531af730d8629808bd96cf489&amp;id=afb284632f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                        <div class="input-group input-group-lg">
-                            <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email address...">
-                            <span class="input-group-btn">
-                                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe!</button>
-                            </span>
-                        </div>
-                        <div id="mce-responses">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                    </form>
-                </div>
-                <!-- End MailChimp Signup Form -->
+            <div class="col-md-10 col-md-offset-1">
+                <h2>100% Made in America</h2>
+                <span class="quote">
+                    <span class="text-primary">Victory Funding</span> is dedicated to quality and serving our veterans. All of our work is done <span class="text-primary">locally</span> and where possible we work with other <span class="text-primary">veteran owned businesses</span> as well.
+                </span>
             </div>
         </div>
     </div>
-</section>
+</aside>
 <section id="contact">
     <div class="container wow fadeIn">
         <div class="row">
@@ -524,7 +529,7 @@
     </div>
 </section>
 <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Donate Now!</a>
-<footer class="footer" style="background-image: url(<%=asset_path('bg-footer.jpg')%>)">
+<footer class="footer" style="background-image: url(<%=asset_path('jets-2.jpg')%>)">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 contact-details">
@@ -556,7 +561,7 @@
         </div>
         <div class="row copyright">
             <div class="col-lg-12">
-                <p class="small">&copy; 2015 Start Bootstrap Themes</p>
+                <p class="small">&copy; Victory Funding LLC</p>
             </div>
         </div>
     </div>

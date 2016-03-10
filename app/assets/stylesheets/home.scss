@@ -2,3 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+h3.process-header{
+	margin-top:0px;
+}
+
+#process{
+	.content-row{
+		margin-top:50px;
+	}
+}
+
+#blog{
+	h4{margin-top:0px}
+}
+
+aside.no-padding{
+	padding:100px 0px;
+}
+
+h2.logo{
+	maring:0px;
+	margin-top:-4px;
+	border:2px solid white;
+	border-radius:50%;
+	padding:10px;
+	font-size:30px;
+}
