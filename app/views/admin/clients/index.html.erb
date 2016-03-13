@@ -1,0 +1,25 @@
+<h1>Listing Clients</h1>
+
+<%= link_to 'New Client', new_admin_client_path, class: "btn btn-outline-dark", style: "margin:15px 0px" %>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>DonorBox Link</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @clients.each do |client| %>
+      <tr>
+        <td><%= client.name %></td>
+        <td><%= client.donorbox_link %></td>
+        <td><%= link_to 'Show', admin_client_path(client) %></td>
+        <td><%= link_to 'Edit', edit_admin_client_path(client) %></td>
+        <td><%= link_to 'Destroy', admin_client_path(client), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

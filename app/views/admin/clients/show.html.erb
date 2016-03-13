@@ -1,0 +1,15 @@
+
+<p>
+  <strong>Name:</strong>
+  <%= @client.name %>
+</p>
+
+<p>
+  <strong>Donorbox link:</strong>
+  <%= @client.donorbox_link %>
+</p>
+
+<div class="nav-actions">
+	<%= link_to 'Edit', edit_admin_client_path(@client) %>
+	<%= link_to 'Back', admin_clients_path %>
+</div>

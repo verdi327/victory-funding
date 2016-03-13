@@ -14,6 +14,7 @@ class DonationsController < ApplicationController
 
   # GET /donations/new
   def new
+    @clients = Client.all
     @donation = Donation.new
   end
 

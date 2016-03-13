@@ -28,4 +28,5 @@
 //= require contact_me
 //= require plugins/jqBootstrapValidation
 //= require vitality
+//= require donations
 
