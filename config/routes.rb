@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   
   resources :donations
   root 'pages#home'
+  get '/home' => 'pages#home'
   
   get '/admin'         => 'admin/base#index'
 

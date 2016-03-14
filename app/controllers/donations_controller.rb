@@ -4,12 +4,14 @@ class DonationsController < ApplicationController
   # GET /donations
   # GET /donations.json
   def index
+    redirect_to new_donation_path
     @donations = Donation.all
   end
 
   # GET /donations/1
   # GET /donations/1.json
   def show
+    redirect_to new_donation_path
   end
 
   # GET /donations/new
@@ -20,6 +22,7 @@ class DonationsController < ApplicationController
 
   # GET /donations/1/edit
   def edit
+    redirect_to new_donation_path
   end
 
   # POST /donations

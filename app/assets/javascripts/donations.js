@@ -3,7 +3,8 @@ $(".donations.new").ready(function() {
 	$(".clients a").on("click", function(){
 		var link = $(this).data("form-link");
 		var name = $(this).text();
-		$(".form-header h3").text(name);
+		var prefix = "American Legion Department of ";
+		$(".form-header h3").text(prefix + name);
 		$(".form-header").show();
 		$("#donorbox-form").html(link);
 	})
