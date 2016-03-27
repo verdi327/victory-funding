@@ -5,7 +5,14 @@
 section#customers{
 	// background:#2980b9;
 	background:#3D6BA7;
-	h2{color:white}
+	color:white;
+	.col-lg-3{
+		p{font-weight:bold;margin-top:-40px}
+	}
+	img#american-legion-logo{
+		width:12%;
+		margin-top:-20px;
+	}
 }
 
 
