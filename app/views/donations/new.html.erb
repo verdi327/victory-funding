@@ -1,4 +1,4 @@
- <header style="background-image: url(<%=asset_path('military-dad.jpg')%>">
+ <header style="background-image: url('https://cftaskforce.files.wordpress.com/2016/01/military-dad.jpg')">
  	<div class="intro-content">
 		<div class="brand-name">Support our Heroes</div>
 		<hr class="colored">
@@ -21,7 +21,7 @@
 	    			<h4>Which state do you reside in?</h4>
 	    			<div class="clients">
 		    			<% @clients.each do |client|  %>
-		    				<%= link_to client.name, "##{client.name}", class: "btn btn-outline-dark", data: {form_link: client.donorbox_link} %>	
+		    				<%= link_to client.name, "##{client.name}", class: "btn btn-block btn-outline-dark", data: {form_link: client.donorbox_link} %>	
 		    			<% end %>
 	    			</div>
 	    			<div class="form-header" style="margin-top:30px;">
